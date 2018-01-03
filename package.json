@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server \"./\" --port 2000 --files \"**/*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imagemin": "imagemin img/* --out-dir=img-min"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/aneesa-saleh/frontend-nanodegree-mobile-portfolio#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.2"
+    "browser-sync": "^2.23.2",
+    "imagemin-cli": "^3.0.0"
   }
 }
