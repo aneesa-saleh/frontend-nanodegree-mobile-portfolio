@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server \"./\" --port 2000 --files \"**/*\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "imagemin": "imagemin img/* --out-dir=img-min"
+    "imagemin": "imagemin img/* --out-dir=img-min; imagemin views/images/*  --out-dir=views/images-min",
+    "add": "git add *; git status",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
