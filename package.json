@@ -1,0 +1,26 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Optimization",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server \"./\" --port 2000 --files \"**/*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneesa-saleh/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "keywords": [
+    "optimization"
+  ],
+  "author": "Aneesa Saleh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aneesa-saleh/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/aneesa-saleh/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.2"
+  }
+}
